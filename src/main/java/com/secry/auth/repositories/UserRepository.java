@@ -1,9 +1,7 @@
-package com.secry.repositories;
+package com.secry.auth.repositories;
 
-import com.secry.models.User;
+import com.secry.auth.models.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.stereotype.Repository;
 
-@Repository
 public interface UserRepository extends MongoRepository<User, String> {
 }

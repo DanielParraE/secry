@@ -1,4 +1,4 @@
-package com.secry.models;
+package com.secry.auth.models;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
